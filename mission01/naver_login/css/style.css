@@ -361,3 +361,11 @@ body {
     color: #03cf5d;
   }
 }
+
+.error-message {
+  display: none; /* 기본적으로 숨김 처리 */
+}
+
+.error-message.visible {
+  display: block; /* 조건에 따라 보이도록 변경 */
+}
